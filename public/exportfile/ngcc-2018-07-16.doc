@@ -1,0 +1,2774 @@
+<style>
+                @font-face {
+                font-family:"Times New Roman";
+                }
+                @font-face {
+                font-family:"&#23435;&#20307;";
+                }
+                @font-face {
+                font-family:"Arial";
+                }
+                table{border-collapse:collapse;border-color:#000;}
+                td{ border-color:#000; padding:10px 5px; vertical-align:middle;}
+                h1{ text-align:left}
+                h2{ text-align:left;}
+                h3{ text-align:left;}
+                </style><h3>1.表名：应用表(app)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>站点ID，关联基础表BasicId</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_NAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(60)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>站点名称</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_URL</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(200)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>站点域名</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_LOGO</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(120)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>站点LOGO</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_KEYWORD</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(500)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>站点关键字</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_COPYRIGHT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(500)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>站点版权信息</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_STYLE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(50)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>站点风格</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_MANAGERID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>站点管理员ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_DESCRIPTION</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(500)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_DATETIME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>应用发布日期</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_MOBILE_STYLE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>应用移动端风格</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_PAY_DATE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>应用续费时间</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_PAY</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(300)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>费用清单</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_STATE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(1) unsigned</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>0运行中 1已停止  </td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>APP_MOBILE_STATE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(1) unsigned</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>0启用 1停用</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>2.表名：基础表(basic)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自增长ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_TITLE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(300)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>标题</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_DESCRIPTION</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>text</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>描述</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_THUMBNAILS</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(1000)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>缩略图</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_HIT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>bigint(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>点击次数</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_SORT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>排序</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_DATETIME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> 发布时间</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_UPDATETIME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>更新时间</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_PEOPLEID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_CATEGORYID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>所属分类编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_APPID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>应用编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>BASIC_MODELID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>3.表名：用户收藏表(basic_attention)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ba_id</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自增长ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ba_peopleID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ba_appID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户应用id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ba_basicID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户收藏关联的基础id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ba_type</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>收藏类型 1： 收藏  2：顶</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ba_datetime</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户收藏文章，帖子或商品时的时间</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ba_url</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(200)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>收藏的文章,帖子，商品的链接地址</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>4.表名：文章多分类表(basic_category)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>bc_basic_id</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>bc_category_id</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>分类编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>5.表名：分类表(category)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>类别ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_TITLE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(100)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>类别标题</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_SORT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(10)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>类别排序</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_DATETIME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>类别发布时间</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_MANAGERID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>发布用户ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_MODELID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>所属模块ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_CATEGORYID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>父类别编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_SMALLIMG</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(120)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>缩略图</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_APPID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>应用编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CATEGORY_DESCRIPTION</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(45)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>栏目描述</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>6.表名：文章表(cms_article)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ARTICLE_BASICID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(20)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ARTICLE_AUTHOR</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(20)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章作者</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ARTICLE_CONTENT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>longtext</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章内容</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ARTICLE_TYPE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(100)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章类型</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ARTICLE_SOURCE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(300)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章来源</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ARTICLE_URL</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(200)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章跳转链接地址</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ARTICLE_KEYWORD</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(300)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章关键字</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ARTICLE_FREEORDER</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章自定义显示顺序</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ARTICLE_WEBID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>文章管理的应用id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>7.表名：(cms_class_50)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>basicId</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>school</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(220)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>platform</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(220)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>8.表名：栏目表(cms_column)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_CATEGORYID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>关联category表（类别表ID）</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_KEYWORD</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(300)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>栏目简介</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_DESCRIP</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(500)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>栏目关键字描述</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_TYPE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(2)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>1,代表列表栏目。2，代表缩单篇。</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_URL</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(50)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>如果是外部链接，则保持外部链接地址。如果为最终列表栏目，就保存文章显示列表</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_LISTURL</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(200)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>最终列表栏目的列表模板地址</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_TENTMODELID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>栏目类型,直接影响栏目发布的表单样式</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_WEBSITEID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>栏目所属站点ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_PATH</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(150)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>栏目路径</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COLUMN_CONTENTMODELID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>栏目管理的内容模型id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>9.表名：自定义内容模型关联字段表(cms_content_mode_field)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段自增长id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_TIPSNAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(30)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段提示文字</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_FIELDNAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(20)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段名称</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_TYPE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段类型（如1.单行，2.多行，3.图片，等）</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_DEFAULT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(250)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段默认值</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_ISNULL</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段是否为空 0:必填 1:可选</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_CMID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>关联内容模型表id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_SORT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段排序</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_ISSEARCH</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段是否支持后台搜索0：不支持，1：支持</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>FIELD_LENGTH</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段长度</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>10.表名：自定义模型表(cms_content_model)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CM_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自增长id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CM_TIPSNAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(30)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>表单提示文字</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CM_TABLENAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(20)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>表单名称</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>CM_MANAGERID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>表单管理员ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>11.表名：自定义搜索表(cms_search)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>SEARCH_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自增长ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>SEARCH_NAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(20)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>搜索名称</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>SEARCH_TEMPLETS</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(50)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>搜索结果模版</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>SEARCH_WEBSITEID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>搜索管理的应用id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>12.表名：评论表(comment)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>评论ID（主键）</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_COMMENTID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>父评论ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_CONTENT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>text</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>评论的内容</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_PICTURE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(300)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>评论时发布的图片，可上传多张图片</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_TIME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>评论时间</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_TYPE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>评论的类型：1 匿名，2 公开，默认为公开</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_PEOPLEID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>评论者ID，默认为非会员用户（即游客）</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_POINTS</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>评价打分（-1至5分）</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_BASICID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>（文章、商品...）绑定basicId（外键）</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>COMMENT_APPID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>(文章、商品）绑定的应用编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>13.表名：自定义表单表(diy_form)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DF_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自增长id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DF_TIPSNAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(30)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自定义表单提示文字</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DF_TABLENAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(20)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自定义表单表名</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DF_MANAGERID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自定义表单关联的关联员id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DF_APPID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自定义表单关联的应用编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>14.表名：自定义表单字段表(diy_form_field)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DFF_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段自增长id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DFF_TIPSNAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(30)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段提示文字</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DFF_FIELDNAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(20)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段名称</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DFF_TYPE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段类型（如1.单行，2.多行，3.图片，等）</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DFF_DEFAULT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(250)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段的默认值</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DFF_ISNULL</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段是否为空</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DFF_SORT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自定义表单的排序</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>DFF_FORMID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字段管理的表单id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>15.表名：(diy_rolecolumn_50)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>Id</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>date</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>timestamp</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>CURRENT_TIMESTAMP</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>fromID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>roleid</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>columnid</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>16.表名：管理员表(manager)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MANAGER_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>bigint(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>管理员ID(主键)</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MANAGER_NAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(15)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>管理员用户名</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MANAGER_NICKNAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(15)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>管理员昵称</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MANAGER_PASSWORD</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(45)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>管理员密码</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MANAGER_ROLEID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>bigint(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>角色编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MANAGER_PEOPLEID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>bigint(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户编号即商家编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MANAGER_TIME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>管理员创建时间</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>17.表名：后台主界面管理表(manager_model_page)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>mmp_managerID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自增长id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>mmp_modelID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>mmp_url</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>默认后台显示的主界面</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>18.表名：模块表(model)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块自增长id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_TITLE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(150)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块标题</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_CODE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块编码</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_MODELID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块的父模块id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_URL</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块连接地址</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_DATETIME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_ICON</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(120)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块图标</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_MODELMANAGERID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块关联的关联员id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_SORT</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块的排序</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>MODEL_ISMENU</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(1)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块是否是菜单</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>19.表名：自定义页面表(model_template)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>mt_id</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自增长id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>mt_modelID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>mt_appID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>应用id</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>mt_path</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自定义页面绑定模板的路径</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>mt_title</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自定义页面标题</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>mt_key</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自定义页面访问路径</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>20.表名：户用基础表(people)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>增长自ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_PHONE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(30)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>手机号码</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_NAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(30)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>陆登账号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_PASSWORD</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(50)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>陆登密码</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_DATETIME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>注册时间</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_APP_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户所属用户ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_MAIL</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(120)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户邮箱</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_STATE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(2)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户状态</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_CODE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(15)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>随机验证码</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_CODESENDDATE</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_PHONECHECK</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(1)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PEOPLE_MAILLCHECK</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(1)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'></td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>21.表名：用户基础信息表(people_user)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PU_PEOPLE_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户ID关联people表的（people_id）</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PU_REAL_NAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(50)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户真实名称</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PU_ADDRESS</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(200)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户地址</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PU_ICON</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(120)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户头像图标地址</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PU_NICKNAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(50)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户昵称</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PU_SEX</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(2)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户性别(0.未知、1.男、2.女)</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PU_BIRTHDAY</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>date</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户出生年月日</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PU_CARD</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>身份证</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>PU_APP_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>用户所属应用ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>22.表名：角色表(role)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ROLE_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>bigint(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>角色ID，自增长</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ROLE_NAME</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(30)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>角色名</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ROLE_MANAGERID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>bigint(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>角色管理员编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>23.表名：角色模块关联表(role_model)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>RM_MODELID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>RM_ROLEID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(22)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>角色编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>24.表名：后台主界面管理界面(system_main_page)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>smp_appID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自增长ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>smp_url</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>默认后台显示的主界面</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>smp_modelID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>模块编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>smp_managerID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>管理员编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>25.表名：后台皮肤管理表(system_skin)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ss_id</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>自增长ID</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ss_loginpage</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>登陆页面</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ss_backgroundimg</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>背景图片</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ss_color</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>字体颜色</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ss_css</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>varchar(255)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>样式</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ss_datetime</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>datetime</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>生成时间</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ss_appID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>0后台发布大于０表示是应用自定义</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ss_categoryID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>主题分类</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table><h3>26.表名：系统皮肤与管理员关联表(system_skin_manager)</h3><table> <thead>
+      <tr>
+       <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+       background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>字段</span></b></p>
+       </td>
+       <td valign=top style='width:84.85pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>数据类型</span></b></p>
+       </td>
+       <td valign=top style='width:145.4pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>说明</span></b></p>
+       </td>
+       <td valign=top style='width:70.6pt;border:solid windowtext 1.0pt;
+       border-left:none;background:#80C687;padding:0cm 5.4pt 0cm 5.4pt'>
+       <p class=MsoNormal align=center style='text-align:center;text-indent:21.1pt'><b><span
+       style='font-family:宋体;color:windowtext'>备注</span></b></p>
+       </td>
+      </tr>
+     </thead><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ssm_managerID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>系统管理员编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr><tr>
+          <td valign=top style='width:119.85pt;border:solid windowtext 1.0pt;
+          border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>ssm_system_skin_ID</td>
+          <td valign=top style='width:84.85pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>int(11)</td>
+          <td valign=top style='width:145.4pt;border-top:none;border-left:
+          none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'>系统皮肤管理员编号</td>
+          <td valign=top style='width:70.6pt;border-top:none;border-left:none;
+          border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+          padding:0cm 5.4pt 0cm 5.4pt'> </td>
+         </tr></table>
